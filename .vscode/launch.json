@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CMS (debug/firefox)",
+            "type": "firefox",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/cms-app-2/src"
+        },
+        {
+            "command": "npm start",
+            "name": "Run CMS app (npm start)",
+            "request": "launch",
+            "type": "node-terminal",
+            "cwd": "${workspaceFolder}/cms-app-2"
+        }
+    ]
+}
